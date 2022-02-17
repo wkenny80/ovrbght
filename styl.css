@@ -1,0 +1,168 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+
+  .header img {
+    float: left;
+    width: 500px;
+    height: 80px;
+    background: rgb#555;
+  }
+
+  .header h1 {
+    font-size: 17px;
+    float: left;
+    padding: .01% 85%;
+    background: rgb(219, 215, 215);
+  }
+
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.333%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: rgb(80, 72, 72);}
+  #Coins {background-color: rgb(80, 72, 72);}
+  #Favorites {background-color: rgb(80, 72, 72);}
+  th, td {
+
+    font-size: 30px;
+ 
+ }
+  thead.table1 > tr > th {
+    
+    background-color: rgb(223, 5, 5);
+  }
+  
+  table.table1 {
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+      margin-top: 100px;
+      padding: 0;
+      width: 25%;
+      table-layout: fixed;
+    }
+    table.table1 thead tr {
+      color:rgb(223, 5, 5);
+    }
+  
+    table.table1 tr {
+      background: rgb(223, 5, 5);
+      border: 1px solid #ddd;
+    }
+  
+  table.table1 th,
+  table.table1 td {
+    text-align: right;
+    border: solid rgb(223, 5, 5) 1px;
+    padding: 4px 8px;
+  }
+
+   thead.table2 > tr > th {
+    
+    background-color: rgb(12, 143, 34);
+  }
+  
+  table.table2 {
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+      margin: 0;
+      padding: 0;
+      width: 25%;
+      table-layout: fixed;
+    }
+    table.table2 thead tr {
+      color:rgb(12, 143, 34);
+    }
+  
+    table.table2 tr {
+      background: rgb(12, 143, 34);
+      border: 1px solid #ddd;
+    }
+  
+  table.table2 th,
+  table.table2 td {
+    text-align: right;
+    border: solid rgb(12, 143, 34) 1px;
+    padding: 4px 8px;
+  }
+
+  thead.table3 > tr > th {
+    
+    background-color: rgb(223, 5, 5);
+  }
+  
+  table.table3 {
+      border: 1px solid rgba(204, 204, 204, 0);
+      border-collapse: separate;
+      margin-top: 100px;
+      padding: 0;
+      width: 75%;
+      table-layout: auto;
+    }
+    table.table3 thead tr {
+      color:rgb(0, 0, 0);
+    }
+  
+    table.table3 tr {
+      background: rgb(0, 0, 0);
+      border: 1px solid rgba(221, 221, 221, 0);
+    }
+  
+  table.table3 th,
+  table.table3 td {
+    text-align: left;
+    border: solid rgb(0, 0, 0) 1px;
+    padding: 4px 8px;
+  }
+
+  thead.table3 > tr > th {
+    
+    background-color: rgb(223, 5, 5);
+  }
+  
+  table.table4 {
+      border: 1px solid rgba(204, 204, 204, 0);
+      border-collapse: separate;
+      margin-top: 100px;
+      padding: 0;
+      width: 50%;
+      table-layout: auto;
+    }
+    table.table4 thead tr {
+      color:rgb(0, 0, 0);
+    }
+  
+    table.table4 tr {
+      background: rgb(0, 0, 0);
+      border: 1px solid rgba(221, 221, 221, 0);
+    }
+  
+  table.table4 th,
+  table.table4 td {
+    text-align: left;
+    border: solid rgb(0, 0, 0) 1px;
+    padding: 4px 8px;
+  }
