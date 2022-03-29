@@ -1,0 +1,85 @@
+/*the CSS for logging and registering. */
+
+body{ font: 14px sans-serif; }
+
+.wrapper{ 
+  width: 360px; 
+  padding: 20px; }
+.header img {
+  float: left;
+  width: 500px;
+  height: 80px;
+  background: rgbrgb(85, 80, 80);
+  margin: 20px;
+}
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Add padding to containers */
+.form-group {
+  padding: 16px;
+}
+
+.header {
+  font-size: 17px;
+  float: left;
+  margin: 20px;
+  padding: 0% 30%;
+  background: rgb(219, 215, 215);
+}
+
+.alert {
+  background-color: rgb(255, 0, 64);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 5px 5px;
+    margin: 10px;
+}
+.alert1 {
+    color: rgb(253, 11, 11);
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 5px 5px;
+    margin: 10px;
+}
+
+h2 {
+  color: rgb(11, 75, 253);
+  padding: 5px 5px;
+    margin: 10px;
+}
+p {
+  padding: 16px;
+}

@@ -1,3 +1,5 @@
+/* welcome.php CSS */
+
 body, html {
     height: 100%;
     margin: 0;
@@ -9,13 +11,14 @@ body, html {
     width: 500px;
     height: 80px;
     background: rgb#555;
+    margin: 20px;
   }
 
   .header h1 {
     font-size: 17px;
     float: left;
     margin: 20px;
-    padding: 0% 40%;
+    padding: 0% 30%;
     background: rgb(219, 215, 215);
   }
 
@@ -48,38 +51,82 @@ body, html {
   #Coins {background-color: rgb(80, 72, 72);}
   #Favorites {background-color: rgb(80, 72, 72);}
 
+  div.login{
+    font-size: 15px;
+    float: left;
+    margin: 20px;
+    padding: 0% 30%;
+    background: rgb(219, 215, 215);
+    width: 50%;
+  }
+  
+
+  a.l1 {
+    background-color: rgb(255, 0, 64);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 5px 5px;
+    margin: 10px;
+    
+  }
+  a.l2 {
+    background-color: rgb(255, 0, 64);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 5px 5px;
+    margin: 10px;
+    
+  }
+  
  /*all tables*/
   th, td {
 
     font-size: 30px;
  
  }
-  /* table1 */
+ .t1{
+  width: 50%; 
+  float: left;
+
+}
+.t2{
+  
+  width: 50%; 
+  float: right;
+
+}
+ 
+  /* table 1 */
   thead.table1 > tr > th {
     
-    background-color: rgb(223, 5, 5);
+    background-color: rgb(226, 14, 14);
   }
+  
   table.table1 {
       border: 1px solid #ccc;
       border-collapse: collapse;
-      margin-top: 100px;
+      margin: 20px;
       padding: 0;
-      width: 25%;
+     
       table-layout: fixed;
     }
     table.table1 thead tr {
-      color:rgb(223, 5, 5);
+      color:rgbrgb(226, 14, 14);
     }
   
     table.table1 tr {
-      background: rgb(223, 5, 5);
+      background: rgb(226, 14, 14);
       border: 1px solid #ddd;
     }
   
   table.table1 th,
   table.table1 td {
-    text-align: right;
-    border: solid rgb(223, 5, 5) 1px;
+    text-align: left;
+    border: solid rgb(226, 14, 14) 1px;
     padding: 4px 8px;
   }
 /* table 2 */
@@ -91,9 +138,9 @@ body, html {
   table.table2 {
       border: 1px solid #ccc;
       border-collapse: collapse;
-      margin: 0;
+      margin: 20px;
       padding: 0;
-      width: 25%;
+     
       table-layout: fixed;
     }
     table.table2 thead tr {
@@ -111,48 +158,17 @@ body, html {
     border: solid rgb(12, 143, 34) 1px;
     padding: 4px 8px;
   }
-/* table 3 */
-  thead.table3 > tr > th {
-    
-    background-color: rgb(223, 5, 5);
-  }
-  
-  table.table3 {
-      border: 1px solid rgba(204, 204, 204, 0);
-      border-collapse: separate;
-      margin-top: 100px;
-      padding: 0;
-      width: 75%;
-      table-layout: auto;
-    }
-    table.table3 thead tr {
-      color:rgb(0, 0, 0);
-    }
-  
-    table.table3 tr {
-      background: rgb(0, 0, 0);
-      border: 1px solid rgba(221, 221, 221, 0);
-    }
-  
-  table.table3 th,
-  table.table3 td {
-    text-align: left;
-    border: solid rgb(0, 0, 0) 1px;
-    padding: 4px 8px;
-  }
 
-  thead.table3 > tr > th {
-    
-    background-color: rgb(223, 5, 5);
-  }
   /* table 4 */
   table.table4 {
       border: 1px solid rgba(204, 204, 204, 0);
       border-collapse: separate;
       margin-top: 100px;
-      padding: 0;
-      width: 50%;
+      padding: 20px;
+      width: 33%;
       table-layout: auto;
+      float: center;
+      margin: 20px;
     }
     table.table4 thead tr {
       color:rgb(0, 0, 0);
@@ -171,6 +187,7 @@ body, html {
   }
 
   footer {
-    float: right;
-    display: block;
+    font-size: 17px;
+    float: left;
   }
+
